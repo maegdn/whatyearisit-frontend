@@ -1,7 +1,7 @@
 const span = document.querySelector('#year');
 
 
-fetch('http://localhost:3000/year')
+fetch('https://whatyearisit-backend-phi-six.vercel.app/')
 .then(response => response.json())
 .then(data => {
     if (data.year) {
